@@ -1,0 +1,42 @@
+section{
+  margin: auto 0;
+  p {
+    text-align: justify;
+    font-size: 20px;
+  }
+  ol>li{
+    list-style: none;
+    font-size: 18px;
+  }
+
+}
+
+.recipe-info {
+  margin: 0 auto;
+	display:block;
+  width: 350px;
+}
+
+.img{
+  position: relative;
+  &::after{
+    content: "";
+    display:block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    background: #8c8787;
+    margin-top: 20px;
+
+  }
+
+}
+
+.cooking-info {
+  margin: 0 auto;
+  display:block;
+  width: 250px;
+
+}
